@@ -15,7 +15,8 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install numpy pandas scikit-learn
+          pip install numpy pandas scikit-learn jupyter opencv-python wandb
 
-      - name: Run test script
-        run: python distance_classification.py
+      - name: Run Jupyter notebook
+        run: |
+          jupyter nbconvert --to script distance_classification.ipynb
