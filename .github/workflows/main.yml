@@ -1,23 +1,25 @@
-name: Run Jupyter Notebook
+name: Run Notebook
 on: [push]
-
 jobs:
-  run-notebook:
+  test:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
-
+      - uses: actions/checkout@v3
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.11'
-
       - name: Install dependencies
         run: |
-          pip install numpy pandas scikit-learn jupyter opencv-python wandb
-
-      - name: Convert and run Jupyter Notebook
+          pip install numpy pandas matplotlib scikit-learn opencv-python wandb jupyter
+      - name: Run Jupyter Notebook
         run: |
-          jupyter nbconvert --to script distance_classification.ipynb
-          python distance_classification.py
+          jupyter nbconvert --to notebook --execute vaibhav_lab-5.ipynb --output executed_notebook.ipynb
+      - name: Verify Notebook Execution
+        run: |
+          if [ -f "executed_notebook.ipynb" ]; then
+            echo "Notebook executed successfully"
+          else
+            echo "Notebook execution failed"
+            exit 1
+          fi
