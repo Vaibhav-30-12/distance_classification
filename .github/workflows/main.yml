@@ -1,8 +1,8 @@
-name: Run Tests
+name: Run Jupyter Notebook
 on: [push]
 
 jobs:
-  test:
+  run-notebook:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -17,6 +17,7 @@ jobs:
         run: |
           pip install numpy pandas scikit-learn jupyter opencv-python wandb
 
-      - name: Run Jupyter notebook
+      - name: Convert and run Jupyter Notebook
         run: |
           jupyter nbconvert --to script distance_classification.ipynb
+          python distance_classification.py
