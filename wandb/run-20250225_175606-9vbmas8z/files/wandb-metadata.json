@@ -1,0 +1,42 @@
+{
+  "os":  "Windows-11-10.0.26120-SP0",
+  "python":  "CPython 3.12.7",
+  "startedAt":  "2025-02-25T12:26:07.366661Z",
+  "program":  "d:\\MLPR\\lab-5\\distance_classification\\vaibhav_lab-5.ipynb",
+  "codePath":  "vaibhav_lab-5.ipynb",
+  "git":  {
+    "remote":  "https://github.com/Vaibhav-30-12/distance_classification.git",
+    "commit":  "27632ccb8c5b69a2c7c7c8f0e7afd056b1802023"
+  },
+  "email":  "vaibhav16dabas@gmail.com",
+  "root":  "d:\\MLPR\\lab-5\\distance_classification",
+  "host":  "Vaibhavvvv02",
+  "executable":  "c:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+  "codePathLocal":  "vaibhav_lab-5.ipynb",
+  "cpu_count":  4,
+  "cpu_count_logical":  8,
+  "gpu":  "NVIDIA GeForce GTX 1650",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "500129853440",
+      "used":  "256682250240"
+    }
+  },
+  "memory":  {
+    "total":  "16913522688"
+  },
+  "cpu":  {
+    "count":  4,
+    "countLogical":  8
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA GeForce GTX 1650",
+      "memoryTotal":  "4294967296",
+      "cudaCores":  896,
+      "architecture":  "Turing"
+    }
+  ],
+  "cudaVersion":  "12.6"
+}
