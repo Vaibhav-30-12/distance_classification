@@ -77,3 +77,7 @@ The project successfully detected faces, extracted features, and clustered them 
 
 - **Variance:** The sensitivity of the model to small fluctuations in the training set. Low values of k (e.g., k=1) lead to high variance, as the decision boundary changes drastically with different training data.
 - **Bias:** The error introduced by approximating a real-world problem with a simplified model. High values of k (e.g., k=10+) lead to high bias, as the decision boundary becomes too smooth and fails to capture finer patterns.
+
+
+
+[D:\MLPR\lab-5\distance_classification\IMAGES\Screenshot 2025-02-25 183429.png]()
