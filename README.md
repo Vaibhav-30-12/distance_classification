@@ -81,14 +81,14 @@ The project successfully detected faces, extracted features, and clustered them 
 
 
 
-### 1️⃣ WandB Dashboard Overview
+### 1️⃣ 
 
 ![WandB Overview](https://github.com/Vaibhav-30-12/distance_classification/blob/main/IMAGES/d1.png)
 
 
-### 2️⃣ WandB Experiment Logs
+### 2️⃣ 
 ![WandB Experiment Logs](https://github.com/Vaibhav-30-12/distance_classification/blob/main/IMAGES/d2.png)
 
-### 3️⃣ WandB Visualization
+### 3️⃣ 
 ![WandB Visualization](https://github.com/Vaibhav-30-12/distance_classification/blob/main/IMAGES/d3.png)
 
