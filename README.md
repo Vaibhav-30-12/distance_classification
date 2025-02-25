@@ -81,12 +81,15 @@ The project successfully detected faces, extracted features, and clustered them 
 
 ### 1️⃣
 
-![WandB Overview](IMAGES/d1.png)
+![](IMAGES/d1.png)
 
 ### 2️⃣
 
-![WandB Experiment Logs](IMAGES/d2.png)
+![](IMAGES/d2.png)
 
 ### 3️⃣
 
-![WandB Visualization](IMAGES/d3.png)
+![](IMAGES/d3.png)
+
+### 4️⃣
+![](IMAGES/d4.png)
