@@ -1,4 +1,4 @@
-## Distance-Based Classification with Experiment Tracking
+## Distance-Based Classification
 
 This project applies distance-based classification to a dataset using Python and various tools, including OpenCV, Scikit-Learn, Docker, GitHub Actions, and Weights & Biases (WandB). The main objective is to detect faces, extract features, perform clustering, and track experiments in a fully automated and containerized workflow.
 
