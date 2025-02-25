@@ -80,4 +80,15 @@ The project successfully detected faces, extracted features, and clustered them 
 
 
 
-[D:\MLPR\lab-5\distance_classification\IMAGES\Screenshot 2025-02-25 183429.png]()
+
+### 1️⃣ WandB Dashboard Overview
+
+![WandB Overview]()
+
+
+### 2️⃣ WandB Experiment Logs
+![WandB Experiment Logs](https://github.com/Vaibhav-30-12/distance_classification/blob/main/IMAGES/d2.png)
+
+### 3️⃣ WandB Visualization
+![WandB Visualization](https://github.com/Vaibhav-30-12/distance_classification/blob/main/IMAGES/d3.png)
+
